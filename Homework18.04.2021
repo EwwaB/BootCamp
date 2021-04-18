@@ -1,0 +1,32 @@
+package HomeWork;
+
+import com.sun.jdi.Value;
+import org.w3c.dom.ls.LSOutput;
+
+import java.util.Scanner;
+
+public class News2 {
+    public static void main ( String[] args ) {
+
+
+        do {
+
+            String[] Value = new String[]{"We Wrocławiu jest słonecznie", "W Warszawie pada deszcz", "W Gdańsku jest pochmurno"};
+
+            System.out.println ( "Wpisz wartość poniżej, która Cię interesuje 1,2,3 lub 0" );
+            Scanner scan = new Scanner ( System.in );
+            int NewsValue = scan.nextInt ( );
+
+            if ( NewsValue >2 || NewsValue <= 0) {
+                System.out.println ("Do widzenia"  );
+            }
+
+            System.out.println ( Value[NewsValue - 1] );
+
+
+        }
+
+        while(true);
+
+    }
+}
