@@ -11,13 +11,13 @@ public class PhoneBook {
         String contact = "1;Ewa;Bańkowska;20;1509376914";
         boolean isHidden = false;
 
-
        printContactCard ( id, name, surname, age, phoneNumber );
        printContact ( id, name, surname, phoneNumber, age );
       getContact ( id, name, surname, age, phoneNumber );
+
+
         printContactCard ( contact );
         getContactRaw ( id, name, surname, age, phoneNumber, isHidden );
-
     }
 
     private static void getContactRaw () {
