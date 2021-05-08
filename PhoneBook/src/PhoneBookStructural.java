@@ -3,7 +3,7 @@ import jdk.swing.interop.SwingInterOpUtils;
 
 import java.util.Arrays;
 
-public class PhoneBookStructural {
+public  class PhoneBookStructural {
     public static void main ( String[] args ) {
         int id = 1;
         String name = "Ewa";

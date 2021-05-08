@@ -1,5 +1,5 @@
 
-public class PhoneContact {
+public abstract class PhoneContact {
 
     private int id;
     private String name;
